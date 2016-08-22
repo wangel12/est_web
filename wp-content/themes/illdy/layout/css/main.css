@@ -156,6 +156,11 @@ input {
   border-right:0px;
   border-bottom: 2px solid rgb(81,202,108);
   padding: 10px 3px;
+  transition-duration:0.3s;
+}
+#header .top-header .header-navigation ul li:last-child:hover,
+#header .top-header .header-navigation ul li:nth-child(4):hover {
+  padding-bottom: 5px;
 }
 #header .top-header .header-navigation ul li:last-child{
   margin-left: 20px;
@@ -227,8 +232,8 @@ input {
 }
 #header .bottom-header {
   width: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 160px;
   text-align: left;
 }
 #header .bottom-header.blog {
@@ -238,19 +243,19 @@ input {
   margin-bottom: 0;
 }
 #header .bottom-header h2 {
-  margin: 0 0 50px 0;
+  margin: 0 0 20px 0;
   line-height: 0.74;
   font-weight: 900;
   font-size: 81px;
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 #header .bottom-header span.span-dot {
   color: #ffde00;
 }
 #header .bottom-header p {
   line-height: 1.6;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   font-size: 15px;
   color: #ffffff;
 }
@@ -280,18 +285,20 @@ input {
 }
 #header .bottom-header .header-button-two {
   width: auto;
-  height: 63px;
-  line-height: 63px;
+  height: 53px;
+  line-height: 53px;
   background: #f1d204;
   background:rgb(75,204,104);
   margin: 0 0px;
-  padding: 0 70px;
+  padding: 0 30px;
   display: inline-block;
-  border-radius: 3px;
-  font-weight: 700;
-  font-size: 18px;
+  border-radius:50px;
+  font-weight: 400;
+  font-size: 16px;
   color: #ffffff;
+  letter-spacing: 1px;
   text-transform: uppercase;
+  box-shadow: 2px 5px 0px #d5d5d5;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -307,7 +314,7 @@ input {
 #static-page-content {
   width: 100%;
   background: #ffffff;
-  padding: 65px 0 5px 0;
+  padding: 65px 0 0px 0;
   text-align: center;
 }
 #about{

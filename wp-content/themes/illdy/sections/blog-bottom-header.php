@@ -11,7 +11,7 @@
 		<div class="row">
 			<?php if( is_page_template( 'page-templates/blog.php' ) || is_singular() ): ?>
 				<div class="col-sm-12">
-					<h2><?php the_title(); ?><span class="span-dot"><?php _e( '.', 'illdy' ); ?></span></h2>
+					<h2>kjkj<i class="fa fa-apple" aria-hidden="true"></i><?php the_title(); ?><span class="span-dot"><?php _e( '.', 'illdy' ); ?></span></h2>
 				</div><!--/.col-sm-12-->
 			<?php else: ?>
 				<div class="col-sm-12">

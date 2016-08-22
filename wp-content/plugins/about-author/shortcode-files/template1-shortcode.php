@@ -19,12 +19,12 @@
 	{
 		<?php echo esc_attr($my_bodr); ?>;
 		border:<?php echo esc_attr($bdr_size),"px"," ",esc_attr($img_bdr_type)," ",esc_attr($img_bdr_color); ?>;
-		width:130px;
-		height:130px;
+		width:100px;
+		height:100px;
 	}
 	#A_b_t_name_div_<?php echo esc_attr($p_o_s_t); ?>.web_lizar_user_name_div
 	{
-		margin-top: 25px;
+		margin-top: 20px;
 	}
 
 	#A_b_t_name_div_<?php echo esc_attr($p_o_s_t); ?>	h3.name_user

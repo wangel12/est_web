@@ -42,20 +42,20 @@ if ( $first_row_from_title || $second_row_from_title || $third_row_from_title ||
 		<div class="row">
 			<div class="col-sm-6">
 				<?php if( $entry ): ?>
-					<p style="color:#666666; font-size:20px;"><?php echo illdy_sanitize_html( $entry ); ?></p>
+					<p style="color:#444444; font-size:20px;"><?php echo illdy_sanitize_html( $entry ); ?></p>
 				<?php endif; ?>
 				<?php if( $first_button_title && $first_button_url ): ?>
 					<a href="<?php echo esc_url( $first_button_url ); ?>" title="<?php echo esc_attr( $first_button_title ); ?>" class="header-button-one"><?php echo esc_html( $first_button_title ); ?></a>
 				<?php endif; ?>
 				<?php if( $second_button_title && $second_button_url ): ?>
-					<a href="<?php echo esc_url( $second_button_url ); ?>" title="<?php echo esc_attr( $second_button_title ); ?>" class="header-button-two"><?php echo esc_html( $second_button_title ); ?></a>
+					<a href="<?php echo esc_url( $second_button_url ); ?>" title="<?php echo esc_attr( $second_button_title ); ?>" class="header-button-two"><i class="fa fa-apple" aria-hidden="true"></i>&nbsp;&nbsp;<?php echo esc_html( $second_button_title ); ?></a>
 				<?php endif; ?>
 				
 			</div><!--/.col-sm-8.col-sm-offset-2-->
-			<div class="col-sm-12">
+			<!-- <div class="col-sm-12">
 				<br>
 				<img src="http://home.eservicetracker.com/wp-content/uploads/2016/08/apple.png" class="" style="width:150px;">
-			</div>
+			</div> -->
 		</div><!--/.row-->
 	</div><!--/.container-->
 </div><!--/.bottom-header.front-page-->
